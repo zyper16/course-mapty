@@ -1,0 +1,21 @@
+{
+  "name": "mapty-workouts",
+  "version": "1.0.0",
+  "description": "Workout tracking map",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel index.html --dist-dir ./dist"
+  },
+  "author": "Andrei Lungu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2",
+    "leaflet": "^1.9.3",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

@@ -179,10 +179,6 @@ a:visited {
   background-color: #fff;
 }
 
-.form__btn {
-  /* display: none; */
-}
-
 .error_message {
   width: 100%;
   padding: 1rem 2.25rem;

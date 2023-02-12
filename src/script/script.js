@@ -1,6 +1,10 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import 'leaflet';
+
 // fix display of markers when page loads -> get them from the markers array and not from the workouts array
 
-'use strict';
+// ('use strict');
 
 // prettier-ignore
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -22,6 +26,7 @@ const inputHidden = document.querySelector('.form__input--id');
 const btnSubmitForm = document.querySelector('.form__btn');
 const btnDeleteAllWorkouts = document.querySelector('.delete-all-workouts');
 const btnEditWorkout = document.querySelector('.workout__controls__edit');
+// const myIcon = L.icon({ iconUrl: icon });
 
 /////////////////////////////////////  DATA CLASES /////////////////////////////////////////////////////
 class Workout {
